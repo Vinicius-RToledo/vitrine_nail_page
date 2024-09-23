@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+    /* Para navegadores que suportam */
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.conteudo {
+    background-color: #691035;
+}
+
+
+main {
+    flex: 1 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .telefone,
+    .desc-footer {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 2000px) {
+    table {
+        width: 100%;
+        /* Garante que a tabela use toda a largura do contêiner */
+    }
+
+    td,
+    th {
+        text-align: center;
+        /* Centraliza o texto nas células */
+    }
+
+    tbody {
+        background-color: rgb(198, 71, 132);
+        /* Mantém o fundo da tabela */
+    }
+
+    .title-dicas {
+        font-size: 25px;
+    }
+}
+
+.logo {
+    width: 145px;
+}
+
+.navegacao {
+    height: 130px;
+}
+
+.itens-nav {
+    margin-top: 30px;
+}
+
+.botao-mobile {
+    margin-top: 30px;
+}
+
+main {
+    margin-top: 60px;
+}
+
+/* Mudar cor do highlight */
+table.highlight tbody tr:hover {
+    background-color: #c2185b;
+}
+
+.description {
+    height: 10px !important;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+main {
+    font-family: 'Playfair Display', serif;
+}
+
+.preco {
+    font-family: 'Times New Roman', Times, serif
+}
