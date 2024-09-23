@@ -21,7 +21,7 @@ $(document).ready(function () {
     // Faz o carrossel rodar automaticamente a cada 5 segundos
     setInterval(function () {
         $('.carousel').carousel('next');
-    }, 5000); // 5000 milissegundos = 5 segundos
+    }, 7000); // 5000 milissegundos = 5 segundos
 });
 
 $('.carousel.carousel-slider').carousel({ fullWidth: true });
