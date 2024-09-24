@@ -1,4 +1,5 @@
 
+// Inicializar sidenav
 $(document).ready(function () {
     // Inicializa o sidenav
     $(".button-collapse").sideNav();
@@ -10,7 +11,7 @@ $(document).ready(function () {
     });
 });
 
-
+// Carrossel
 $(document).ready(function () {
     // Inicializa o carrossel
     $('.carousel.carousel-slider').carousel({
@@ -24,6 +25,7 @@ $(document).ready(function () {
     }, 7000); // 5000 milissegundos = 5 segundos
 });
 
+// Inicia slider
 $('.carousel.carousel-slider').carousel({ fullWidth: true });
 
 
